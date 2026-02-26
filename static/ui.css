@@ -1,0 +1,198 @@
+/* =========================
+   PROFESSIONAL ADMIN THEME
+========================= */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    min-height: 100vh;
+    margin: 0;
+    color: #f8fafc;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 230px;
+    height: 100vh;
+    background: #0f172a;
+    padding-top: 20px;
+    box-shadow: 4px 0 25px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.collapsed {
+    width: 70px;
+}
+
+.sidebar h4 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+    background: #1e293b;
+    color: #ffffff;
+}
+
+.sidebar a span {
+    transition: 0.3s;
+}
+
+.sidebar.collapsed a span {
+    display: none;
+}
+
+.submenu {
+    display: none;
+    padding-left: 45px;
+}
+
+.submenu.show {
+    display: block;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.content {
+    margin-left: 230px;
+    padding: 40px;
+    transition: all 0.3s ease;
+}
+
+.content.shifted {
+    margin-left: 70px;
+}
+
+/* =========================
+   GLASS CARD
+========================= */
+
+.glass-card {
+    background: #1f2937;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+/* =========================
+   STAT CARDS
+========================= */
+
+.stat-card {
+    background: #1f2937;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #374151;
+    transition: 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* =========================
+   INPUTS
+========================= */
+
+input.form-control {
+    background: #0f172a;
+    border: 1px solid #334155;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+input.form-control::placeholder {
+    color: #94a3b8;
+    opacity: 1;
+}
+
+input.form-control:focus {
+    background: #0f172a;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59,130,246,0.25);
+    color: #ffffff;
+}
+
+/* =========================
+   TABLE
+========================= */
+
+.table-modern {
+    background: #111827;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #f9fafb;
+}
+
+.table-modern th {
+    background: #1f2937;
+    color: #cbd5e1;
+    font-weight: 600;
+}
+
+.table-modern tr {
+    border-bottom: 1px solid #374151;
+}
+
+.table-modern tr:hover {
+    background: #1e293b;
+    transition: 0.3s;
+}
+
+/* =========================
+   CHART GLASS
+========================= */
+
+.chart-glass {
+    background: #111827;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #374151;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn-success {
+    background-color: #16a34a;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #15803d;
+}
+
+.btn-danger {
+    background-color: #dc2626;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #b91c1c;
+}
