@@ -10,7 +10,7 @@ A production-ready full-stack **Student Management System** built using **Python
 ---
 
 ## 🚀 Live Demo
-🔗 _Add your Render deployment link here_
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://student-management-system-352a.onrender.com/)
 
 ---
 
